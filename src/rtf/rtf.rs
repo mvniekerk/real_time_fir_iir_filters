@@ -1,5 +1,5 @@
 use core::{iter::Sum, mem::MaybeUninit, ops::Add};
-use std::ops::MulAssign;
+use core::ops::MulAssign;
 
 use num::{Complex, Float};
 use crate::{conf, internals::{ainternals, binternals, rtfinternals, winternals}, max_len, param::{FilterFloat, Param}, rtf::StaticRtf};

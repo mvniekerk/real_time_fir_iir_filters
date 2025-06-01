@@ -280,7 +280,7 @@ crate::def_rtf!(
 #[cfg(test)]
 mod test
 {
-    use std::f64::consts::TAU;
+    use core::f64::consts::TAU;
 
     use crate::{conf::All, param::Omega};
 
